@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="40dp"
+    android:gravity="center"
+    android:id="@+id/li_layout_id"
+    tools:context=".profilesetup_Activity4">
+  <FrameLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/image_shape"
+      android:padding="30dp"
+      android:layout_marginBottom="30dp"
+    >
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/camara_img"
+      />
+  </FrameLayout>
+
+  <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="20dp">
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:inputType="text"
+        android:hint="Full name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+    />
+  </com.google.android.material.textfield.TextInputLayout>
+
+  <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="20dp">
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email (option al)"
+        android:inputType="textEmailAddress"
+        android:background="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+  </com.google.android.material.textfield.TextInputLayout>
+
+  <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="45dp">
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of Birth"
+        android:inputType="date"
+        android:maxLength="10"
+        android:background="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+  </com.google.android.material.textfield.TextInputLayout>
+
+  <com.google.android.material.button.MaterialButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Go"
+      android:id="@+id/Go_btn_id"
+      app:backgroundTint="@color/continuebtn"
+      android:textColorHint="#cccccc"
+      android:paddingVertical="14dp"
+      android:paddingHorizontal="40dp"
+/>
+</LinearLayout>
+</ScrollView>

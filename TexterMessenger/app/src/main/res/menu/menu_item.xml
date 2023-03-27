@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:icon="@drawable/search"
+        android:id="@+id/search_icon"
+        app:showAsAction="ifRoom"
+        android:title="search" />
+
+    <item android:title="New group"
+        android:id="@+id/new_group_id"/>
+
+    <item android:title="Notification"
+        android:id="@+id/notification_id"
+        />
+</menu>

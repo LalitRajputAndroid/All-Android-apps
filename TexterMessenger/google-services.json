@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "496157995188",
+    "project_id": "texter-messenger-bf5e6",
+    "storage_bucket": "texter-messenger-bf5e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496157995188:android:51ee5756558e1d11c3e7e1",
+        "android_client_info": {
+          "package_name": "com.example.textermessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496157995188-5gofs9ncvap94mnbn4mpe025jlgiqimq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.textermessenger",
+            "certificate_hash": "ecbf3b763dcd7a74c4bac5cd7fca8e588d2b7274"
+          }
+        },
+        {
+          "client_id": "496157995188-ofbvsflne0fopu58360eh6777t3lf12v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIeWUf_Xg3LKs_V3aA6ABm3QsCwRt5H9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496157995188-ofbvsflne0fopu58360eh6777t3lf12v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/home"
+        app:menu="@menu/menu_item"
+        app:title="Texter"
+        />
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tablayout_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/home"
+            app:tabGravity="start"
+            app:tabSelectedTextColor="@color/black"
+            app:tabTextColor="@color/white">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/chats_tab_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chats" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/stories_tab_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stories" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/calls_tab_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calls" />
+
+        </com.google.android.material.tabs.TabLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

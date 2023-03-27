@@ -1,0 +1,33 @@
+1. git init ---> enter 
+
+2. ls ---> enter 
+
+3. git add -A ---> enter 
+
+4. git status ---> enter 
+
+5. git commit -m ---> enter 
+
+6. git remote -v ---> enter 
+
+7. git remote add origin <repository link> .git ---> enter 
+
+8. git branch -M <branch name> ---> enter
+
+9. git push -u origin <branch name> ---> enter 
+
+10. git push origin <branch name> --force ---> enter 
+
+
+echo "# Android-lecture-5.30-to-7.00-MWF" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/LalitRajputAndroid/Android-lecture-5.30-to-7.00-MWF.git
+git push -u origin main
+
+
+git remote add origin https://github.com/LalitRajputAndroid/Android-lecture-5.30-to-7.00-MWF.git
+git branch -M main
+git push -u origin main

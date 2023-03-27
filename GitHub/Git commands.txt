@@ -1,0 +1,70 @@
+/brGit steps : 
+1. install git
+2. open folder gitbash
+
+create user name and email 
+3. git config --global user.name jay
+   git config --global user.email jay.arch007@gmail.com
+
+to check user name user name and email is config or not ?
+4. git config --global user.name ->Enter
+   git config --global user.email ->Enter
+
+5. to open vs code -> code .
+
+6.git init -> to initialize empty git repo
+
+7. ls -lart ->to check all sub folders with hidden
+
+8. git status -> to check status of git
+
+9. git add filename ->to add file into staging area
+
+10. git commit -> to commit file 
+
+11. press i and pass command initial commit then -> esc,:,w,q (to exit)
+
+12. touch about.html -> to create any blank file touch command used
+
+13. git add -A -> to add all file to staging area
+
+14. git commit -m "your comment" ->to commit files
+
+15. git checkout filename -> to bring back here your previous changes
+
+16. git checkout -f ->to bring back last commit 
+
+17.git log -> to check all commits
+
+18. git log -p -num -> to check how many commits you want to see
+    and press q to quit
+
+19. git diff -> to compare working directory to staging area
+
+20. git diff --staged ->to compare staging area to last commit
+
+21. git commit -a -m "msg" -> to skip staging area and commit
+
+22. ls -> to list all files
+
+23. git rm --cached -> to remove file from staging area will not remove from storage
+
+24. git rm filename -> it will remove file from storage
+
+25. git branch branchname -> to create new branch
+
+26. git branch -> to check all branches available
+
+27. git checkout branchname -> to move from one branch to another
+
+28. git merge branchname -> to merge branch to master
+
+29. git checkout -b branchgit name -> to create and directly switched to that branch
+
+30.git remote add origin git@github.com:Niravpanchal6268/JAVA_workplace_pc.git1(link)
+31.git branch -M main
+32.git push -u origin main
+33.token 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
+
+
+ 
