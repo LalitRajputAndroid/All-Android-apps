@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <com.airbnb.lottie.LottieAnimationView
+      android:id="@+id/lotti_id"
+      android:layout_width="300dp"
+      android:layout_height="300dp"
+      android:layout_gravity="center"
+      android:layout_marginTop="20dp"
+      app:lottie_rawRes="@raw/chat_ani"
+      app:lottie_autoPlay="true"
+      app:lottie_loop="true"
+
+    />
+
+  <com.google.android.material.textview.MaterialTextView
+      android:id="@+id/tag_text_id"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/tag_line"
+      android:textColor="@color/textC"
+      android:layout_below="@+id/lotti_id"
+      android:gravity="center"
+      android:textSize="35sp"
+      android:textStyle="italic"
+      android:layout_marginHorizontal="30dp"
+      android:layout_marginBottom="50dp"
+      />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/continuebtn_id"
+        android:hint="Continue"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/continue_btn"
+        android:textColorHint="@color/btn_text"
+        />
+
+
+</RelativeLayout>

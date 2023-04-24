@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="5sp"
+        android:text="Welcome"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        />
+    <EditText
+        android:id="@+id/g_email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:textSize="30sp"
+        android:background="@drawable/edit_text"
+        android:layout_margin="30sp"
+        android:padding="10sp"
+        />
+    <EditText
+        android:id="@+id/g_password_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+
+        android:textSize="30sp"
+        android:background="@drawable/edit_text"
+        android:layout_margin="30sp"
+        android:padding="10sp"
+        />
+    <Button
+        android:id="@+id/login_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:text="Log IN"
+        android:textSize="35dp"
+        android:padding="5sp"
+        />
+    <Spinner
+        android:id="@+id/spi_id"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+    <ListView
+        android:id="@+id/listv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<!--    <CheckBox-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="English"-->
+<!--        android:textSize="20sp"-->
+
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        />-->
+<!--    <CheckBox-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hindi"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:textStyle="bold"-->
+<!--        />-->
+<!--    <RadioGroup-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+
+<!--    >-->
+<!--        <RadioButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Male"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            />-->
+<!--        <RadioButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Female"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            />-->
+<!--    </RadioGroup>-->
+    <SeekBar
+        android:id="@+id/seekbar_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:max="100" />
+
+    <TextView
+        android:id="@+id/age_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="age:: "
+        android:padding="15dp"
+        android:textColor="@color/black"
+/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/datepicker_id"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="5dp"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/show_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginLeft="30dp"
+        />
+    </LinearLayout>
+    <Button
+        android:id="@+id/timepicker_id"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="5dp"
+        android:textSize="30sp" />
+
+</LinearLayout>

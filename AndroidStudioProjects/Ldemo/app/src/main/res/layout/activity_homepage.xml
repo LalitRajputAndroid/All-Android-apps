@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b_image"
+    tools:context=".Homepage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="𝕎𝕒𝕥𝕖𝕣 𝕕𝕖𝕝𝕚𝕧𝕖𝕣𝕪"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="#080909"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="45dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="𝓦𝓮 𝓭𝓮𝓵𝓲𝓿𝓮𝓻 𝔀𝓪𝓽𝓮𝓻 𝓪𝓽 𝓪𝓷𝔂 𝓹𝓸𝓲𝓷𝓽 𝓸𝓯 𝓽𝓱𝓮  𝓮𝓪𝓻𝓽𝓱 𝓲𝓷 30 𝓶𝓲𝓷𝓲𝓽𝓮𝓼"
+        android:textColor="#DD050000"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:id="@+id/Login_id"
+        android:text="lon in"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#090909"
+        android:background="@drawable/login_button"
+
+        />
+    <Button
+        android:id="@+id/Signin_id"
+        android:text="Sign up"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@color/sige_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#302E2E"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textColor="@color/teal_700"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:textSize="30sp" />
+
+</LinearLayout>

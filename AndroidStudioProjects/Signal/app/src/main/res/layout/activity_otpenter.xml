@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="25dp"
+    android:orientation="vertical"
+    tools:context=".otpenter">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/code_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the code we sent to "
+        android:textSize="40sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/numbertext_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="50dp"
+        android:padding="10dp"
+        android:text="+91 - "
+        android:textSize="30sp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/otp_edittext"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="30sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/otp_edittext"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="30sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/otp_edittext"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="30sp" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+           android:layout_marginBottom="8dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="-"
+            android:gravity="center"
+            android:textSize="30dp"
+
+             />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/otp_edittext"
+            android:gravity="center"
+            android:inputType="number"
+            android:textSize="30sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/otp_edittext"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="30sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/otp_edittext"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/ok_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/black"
+        android:hint="OK"
+        android:textColor="@color/btn_text"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</LinearLayout>

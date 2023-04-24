@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.cart_id:
                         fragment = new Cart();
                         break;
-
                 }
                 getSupportFragmentManager().beginTransaction().replace(R.id.framelayout_id, fragment).commit();
                 return true;
